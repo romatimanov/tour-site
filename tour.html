@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>tour</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20231012143015">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="home__page">
+			<header class="header">
+				<div class="header__containers">
+					<div class="header__main">
+						<a class="header__logo" href="../home.html">
+							<img src="img/map.png" alt="map">
+							<p class="header__text">Территория <br> Путешествий</p>
+						</a>
+						<nav>
+							<ul class="header__navigation">
+								<li>
+									<a href="#" data-goto=".popular__title" class="header__link">Популярные туры</a>
+								</li>
+								<li>
+									<a href="#" data-goto=".special__title" class="header__link">Спецпредложения</a>
+								</li>
+								<li>
+									<a href="#" data-goto=".review__title" class="header__link">Отзывы</a>
+								</li>
+								<li>
+									<a href="#" class="header__link">Агентствам</a>
+								</li>
+								<li>
+									<a href="#" data-goto=".contacts__title" class="header__link">Контакты</a>
+								</li>
+							</ul>
+						</nav>
+						<div class="header__contacts">
+							<a class="header__icon" href="../favorite.html">
+								<svg>
+									<use xlink:href="img/icons/icons.svg#hearth-black"></use>
+								</svg>
+							</a>
+							<a class="header__icon" href="tel:+78122196477">
+								<svg>
+									<use xlink:href="img/icons/icons.svg#phone"></use>
+								</svg>
+							</a>
+							<a class="header__phone" href="tel:+78122196477">+7(812)219-64-77</a>
+							<div class="header__menu menu">
+								<button type="button" class="menu__icon icon-menu"><span></span></button>
+								<nav class="menu__body">
+									<ul class="menu__list">
+										<li class="menu__item">
+											<a href="#" class="menu__link">Популярные туры</a>
+										</li>
+										<li class="menu__item">
+											<a href="#" class="menu__link">Спецпредложения</a>
+										</li>
+										<li class="menu__item">
+											<a href="#" class="menu__link">Отзывы</a>
+										</li>
+										<li class="menu__item">
+											<a href="#" class="menu__link">Агентствам</a>
+										</li>
+										<li class="menu__item">
+											<a href="#" class="menu__link">Контакты</a>
+										</li>
+										<li class="menu__item">
+											<a class="menu__link menu-phone" href="tel:+78122196477">+7(812)219-64-77</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<img class="home__img" src="img/home.jpg" alt="home">
+			<div class="home__main">
+				<h1 class="home__title">Более <span class="home__count">10
+						000</span> туров <br> по России</h1>
+				<div class="home__content">
+					<form class="home__form">
+						<div class="home__input input-home">
+							<input id="search" class="input-home__search" type="text" name="search">
+							<input class="input-home__search" type="text" name="search" placeholder="Когда?">
+						</div>
+						<button class="home__btn" type="submit">
+							<img src="img/search.png" alt="search">
+						</button>
+					</form>
+					<button data-popup="#popup" class="home__btn">
+						<img src="img/filter.png" alt="filter">
+					</button>
+				</div>
+				<div class="home__icons icons-home">
+					<div class="icons__home-group icon-garanties">
+						<svg class="icons-home__icon">
+							<use xlink:href="img/icons/icons.svg#garanties"></use>
+						</svg>
+						<p class="icons-home__text">Самый большой <br> выбор туров
+						</p>
+					</div>
+					<div class="icons__home-group icon-money">
+						<svg class="icons-home__icon">
+							<use xlink:href="img/icons/icons.svg#money"></use>
+						</svg>
+						<p class="icons-home__text">Гарантия <br> лучшей цены
+						</p>
+					</div>
+					<div class="icons__home-group icon-gerb">
+						<svg class="icons-home__icon">
+							<use xlink:href="img/icons/icons.svg#gerb"></use>
+						</svg>
+						<p class="icons-home__text">При поддержке Ростуризма
+							<br><a class="icons-home__link" target="_blank" href="https://tourism.gov.ru/">РТО 021586</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<main class="page">
+			<section class="tour">
+				<div class="tour__containers container">
+					<h2 class="tour__title home-title">Карелия</h2>
+					<div class="tour__content">
+						<div class="card card-tour">
+							<div class="card__main">
+								<div class="card__image">
+									<img src="img/tour/01.png" alt="image">
+								</div>
+								<div class="card__content">
+									<div class="card__about">
+										<div class="card__text">
+											<h2 class="card__title">Осенние краски Карелии</h2>
+										</div>
+										<button class="card__favorite">
+											<svg class="card__cion icon-heart">
+												<use xlink:href="img/icons/icons.svg#hearth-m"></use>
+											</svg>
+										</button>
+									</div>
+									<p class="card__subtitle">Вы посетите экопарк и прогуляетесь по деревянным дорожкам вдоль бурной реки Ийоки, покормите северных оленей.</p>
+								</div>
+							</div>
+							<div class="card__info">
+								<div class="card__colendar">
+									<svg class="card__icon icon-calendar">
+										<use xlink:href="img/icons/icons.svg#calendar"></use>
+									</svg>
+									<input class="card__input" type="date">
+								</div>
+								<div class="card__price-group">
+									<p class="card__price">34 000 руб. <span class="card__day">/ 5 дней</span></p>
+									<p class="card__sale"><span>40990</span> руб.</p>
+								</div>
+								<a href="about.html" class="card__btn btn__blue-bg">Подробнее</a>
+							</div>
+						</div>
+						<div class="card card-tour">
+							<div class="card__main">
+								<div class="card__image">
+									<img src="img/tour/02.png" alt="image">
+								</div>
+								<div class="card__content">
+									<div class="card__about">
+										<div class="card__text">
+											<h2 class="card__title">Валаам из Петрозаводска</h2>
+										</div>
+										<button class="card__favorite">
+											<svg class="card__cion icon-heart">
+												<use xlink:href="img/icons/icons.svg#hearth-m"></use>
+											</svg>
+										</button>
+									</div>
+									<p class="card__subtitle">Вы увидите шедевры деревянного зодчества на острове Кижи, попадете на знаменитый остров Валаам и съездите в горный парк «Рускеала».</p>
+								</div>
+							</div>
+							<div class="card__info">
+								<div class="card__colendar">
+									<svg class="card__icon icon-calendar">
+										<use xlink:href="img/icons/icons.svg#calendar"></use>
+									</svg>
+									<input class="card__input" type="date">
+								</div>
+								<div class="card__price-group">
+									<p class="card__price">8 400 руб. <span class="card__day">/ 3 дня</span></p>
+								</div>
+								<a href="about.html" class="card__btn btn__blue-bg">Подробнее</a>
+							</div>
+						</div>
+						<div class="card card-tour">
+							<div class="card__main">
+								<div class="card__image">
+									<img src="img/tour/03.png" alt="image">
+								</div>
+								<div class="card__content">
+									<div class="card__about">
+										<div class="card__text">
+											<h2 class="card__title">Сила природы Карелии</h2>
+										</div>
+										<button class="card__favorite">
+											<svg class="card__cion icon-heart">
+												<use xlink:href="img/icons/icons.svg#hearth-m"></use>
+											</svg>
+										</button>
+									</div>
+									<p class="card__subtitle">Вы посетите экопарк и прогуляетесь по деревянным дорожкам вдоль бурной реки Ийоки, покормите северных оленей.</p>
+								</div>
+							</div>
+							<div class="card__info">
+								<div class="card__colendar">
+									<svg class="card__icon icon-calendar">
+										<use xlink:href="img/icons/icons.svg#calendar"></use>
+									</svg>
+									<input class="card__input" type="date">
+								</div>
+								<div class="card__price-group">
+									<p class="card__price">2 590 руб. <span class="card__day">/ 1 день</span></p>
+									<p class="card__sale"><span>6990</span> руб.</p>
+								</div>
+								<a href="about.html" class="card__btn btn__blue-bg">Подробнее</a>
+							</div>
+						</div>
+						<div class="card card-tour">
+							<div class="card__main">
+								<div class="card__image">
+									<img src="img/tour/04.png" alt="image">
+								</div>
+								<div class="card__content">
+									<div class="card__about">
+										<div class="card__text">
+											<h2 class="card__title">Рускеальная сказка</h2>
+										</div>
+										<button class="card__favorite">
+											<svg class="card__cion icon-heart">
+												<use xlink:href="img/icons/icons.svg#hearth-m"></use>
+											</svg>
+										</button>
+									</div>
+									<p class="card__subtitle">Как вино с годами становится лучше, так и красота северной природы раскрывается зимой своим особым очарованием.</p>
+								</div>
+							</div>
+							<div class="card__info">
+								<div class="card__colendar">
+									<svg class="card__icon icon-calendar">
+										<use xlink:href="img/icons/icons.svg#calendar"></use>
+									</svg>
+									<input class="card__input" type="date">
+								</div>
+								<div class="card__price-group">
+									<p class="card__price">12 450 руб. <span class="card__day">/ 3 дня</span></p>
+								</div>
+								<a href="about.html" class="card__btn btn__blue-bg">Подробнее</a>
+							</div>
+						</div>
+						<div class="card card-tour">
+							<div class="card__main">
+								<div class="card__image">
+									<img src="img/tour/01.png" alt="image">
+								</div>
+								<div class="card__content">
+									<div class="card__about">
+										<div class="card__text">
+											<h2 class="card__title">Осенние краски Карелии</h2>
+										</div>
+										<button class="card__favorite">
+											<svg class="card__cion icon-heart">
+												<use xlink:href="img/icons/icons.svg#hearth-m"></use>
+											</svg>
+										</button>
+									</div>
+									<p class="card__subtitle">Вы посетите экопарк и прогуляетесь по деревянным дорожкам вдоль бурной реки Ийоки, покормите северных оленей.</p>
+								</div>
+							</div>
+							<div class="card__info">
+								<div class="card__colendar">
+									<svg class="card__icon icon-calendar">
+										<use xlink:href="img/icons/icons.svg#calendar"></use>
+									</svg>
+									<input class="card__input" type="date">
+								</div>
+								<div class="card__price-group">
+									<p class="card__price">34 000 руб. <span class="card__day">/ 5 дней</span></p>
+								</div>
+								<a href="about.html" class="card__btn btn__blue-bg">Подробнее</a>
+							</div>
+						</div>
+						<div class="card card-tour">
+							<div class="card__main">
+								<div class="card__image">
+									<img src="img/tour/02.png" alt="image">
+								</div>
+								<div class="card__content">
+									<div class="card__about">
+										<div class="card__text">
+											<h2 class="card__title">Валаам из Петрозаводска</h2>
+										</div>
+										<button class="card__favorite">
+											<svg class="card__cion icon-heart">
+												<use xlink:href="img/icons/icons.svg#hearth-m"></use>
+											</svg>
+										</button>
+									</div>
+									<p class="card__subtitle">Вы увидите шедевры деревянного зодчества на острове Кижи, попадете на знаменитый остров Валаам и съездите в горный парк «Рускеала».</p>
+								</div>
+							</div>
+							<div class="card__info">
+								<div class="card__colendar">
+									<svg class="card__icon icon-calendar">
+										<use xlink:href="img/icons/icons.svg#calendar"></use>
+									</svg>
+									<input class="card__input" type="date">
+								</div>
+								<div class="card__price-group">
+									<p class="card__price">8 400 руб. <span class="card__day">/ 3 дня</span></p>
+								</div>
+								<a href="about.html" class="card__btn btn__blue-bg">Подробнее</a>
+							</div>
+						</div>
+						<div class="card card-tour">
+							<div class="card__main">
+								<div class="card__image">
+									<img src="img/tour/03.png" alt="image">
+								</div>
+								<div class="card__content">
+									<div class="card__about">
+										<div class="card__text">
+											<h2 class="card__title">Сила природы Карелии</h2>
+										</div>
+										<button class="card__favorite">
+											<svg class="card__cion icon-heart">
+												<use xlink:href="img/icons/icons.svg#hearth-m"></use>
+											</svg>
+										</button>
+									</div>
+									<p class="card__subtitle">Вы посетите экопарк и прогуляетесь по деревянным дорожкам вдоль бурной реки Ийоки, покормите северных оленей.</p>
+								</div>
+							</div>
+							<div class="card__info">
+								<div class="card__colendar">
+									<svg class="card__icon icon-calendar">
+										<use xlink:href="img/icons/icons.svg#calendar"></use>
+									</svg>
+									<input class="card__input" type="date">
+								</div>
+								<div class="card__price-group">
+									<p class="card__price">2 590 руб. <span class="card__day">/ 1 день</span></p>
+								</div>
+								<a href="about.html" class="card__btn btn__blue-bg">Подробнее</a>
+							</div>
+						</div>
+						<div class="card card-tour">
+							<div class="card__main">
+								<div class="card__image">
+									<img src="img/tour/04.png" alt="image">
+								</div>
+								<div class="card__content">
+									<div class="card__about">
+										<div class="card__text">
+											<h2 class="card__title">Рускеальная сказка</h2>
+										</div>
+										<button class="card__favorite">
+											<svg class="card__cion icon-heart">
+												<use xlink:href="img/icons/icons.svg#hearth-m"></use>
+											</svg>
+										</button>
+									</div>
+									<p class="card__subtitle">Как вино с годами становится лучше, так и красота северной природы раскрывается зимой своим особым очарованием.</p>
+								</div>
+							</div>
+							<div class="card__info">
+								<div class="card__colendar">
+									<svg class="card__icon icon-calendar">
+										<use xlink:href="img/icons/icons.svg#calendar"></use>
+									</svg>
+									<input class="card__input" type="date">
+								</div>
+								<div class="card__price-group">
+									<p class="card__price">12 450 руб. <span class="card__day">/ 3 дня</span></p>
+								</div>
+								<a href="about.html" class="card__btn btn__blue-bg">Подробнее</a>
+							</div>
+						</div>
+						<div class="card card-tour">
+							<div class="card__main">
+								<div class="card__image">
+									<img src="img/tour/04.png" alt="image">
+								</div>
+								<div class="card__content">
+									<div class="card__about">
+										<div class="card__text">
+											<h2 class="card__title">Рускеальная сказка</h2>
+										</div>
+										<button class="card__favorite">
+											<svg class="card__cion icon-heart">
+												<use xlink:href="img/icons/icons.svg#hearth-m"></use>
+											</svg>
+										</button>
+									</div>
+									<p class="card__subtitle">Как вино с годами становится лучше, так и красота северной природы раскрывается зимой своим особым очарованием.</p>
+								</div>
+							</div>
+							<div class="card__info">
+								<div class="card__colendar">
+									<svg class="card__icon icon-calendar">
+										<use xlink:href="img/icons/icons.svg#calendar"></use>
+									</svg>
+									<input class="card__input" type="date">
+								</div>
+								<div class="card__price-group">
+									<p class="card__price">12 450 руб. <span class="card__day">/ 3 дня</span></p>
+								</div>
+								<a href="about.html" class="card__btn btn__blue-bg">Подробнее</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__containers">
+				<div class="container">
+					<div class="footer__body">
+						<a class="footer__logo" href="../home.html">
+							<img src="img/logo.png" alt="map">
+							<p class="footer__text">Территория <br> Путешествий</p>
+						</a>
+						<div class="footer__content">
+							<div class="footer__info">
+								<ul class="footer__list">
+									<li class="footer__link">
+										<a href="../direction.html">Направления</a>
+									</li>
+									<li class="footer__link">
+										<a href="#">Популярные туры</a>
+									</li>
+									<li class="footer__link">
+										<a href="../tour.html">Спецпредложения</a>
+									</li>
+									<li class="footer__link">
+										<a href="#">Отзывы</a>
+									</li>
+								</ul>
+								<ul class="footer__list">
+									<li class="footer__link">
+										<a href="#">Агенствам</a>
+									</li>
+									<li class="footer__link">
+										<a href="#">Покупка и оплата тура</a>
+									</li>
+									<li class="footer__link">
+										<a href="#">Туры для школьных групп</a>
+									</li>
+									<li class="footer__link">
+										<a href="#">Политика конфиденциальности</a>
+									</li>
+								</ul>
+								<ul class="footer__list">
+									<li class="footer__link link-contact">
+										<a href="#">Контакты</a>
+									</li>
+									<li class="footer__link link-tel">
+										<a href="tel:+78122196477">Тел. +7(812)219-64-77</a>
+									</li>
+									<div class="footer__social">
+										<a href="#" class="footer__icon">
+											<svg class="card__icon icon-calendar">
+												<use xlink:href="img/icons/icons.svg#vk"></use>
+											</svg>
+										</a>
+										<a href="#" class="footer__icon">
+											<svg class="card__icon icon-calendar">
+												<use xlink:href="img/icons/icons.svg#youtube"></use>
+											</svg>
+										</a>
+										<a href="#" class="footer__icon">
+											<svg class="card__icon icon-calendar">
+												<use xlink:href="img/icons/icons.svg#whatsup"></use>
+											</svg>
+										</a>
+									</div>
+								</ul>
+							</div>
+							<div class="footer__bottom">
+								<p class="footer__copy">© 2020 Туроператор «Мой Петербург». ™ Все права защищены.</p>
+								<div class="footer__ros">
+									<svg class="card__icon icon-calendar">
+										<use xlink:href="img/icons/icons.svg#gerb"></use>
+									</svg>
+									<div class="footer__ros-text">
+										<p>Сертифицировано Ростуризмом.</p>
+										<a href="#">РТО 021586</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">
+					<svg class="icons-home__icon">
+						<use xlink:href="img/icons/icons.svg#close"></use>
+					</svg>
+				</button>
+				<div class="popup__text">
+					контент
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20231012143015"></script>
+</body>
+
+</html>
